@@ -10,7 +10,11 @@ const Navbar: React.FC = () => {
         <Leaf />
 
         <div className="md:block hidden w-1/3    mx-4">
-          <Input type="text" placeholder="Search..." />
+          <Input
+            className="focus-visible:border-org"
+            type="text"
+            placeholder="Search..."
+          />
         </div>
 
         <div className="flex flex-row items-end">

@@ -66,8 +66,8 @@
   }
 }
 .custom-checkbox-1:checked + div {
-  @apply bg-green-500;
-  @apply border-green-500;
+  @apply bg-org;
+  @apply border-org;
 }
 
 .custom-checkbox-1:checked + div svg {
@@ -76,8 +76,8 @@
 }
 
 .custom-checkbox-2:checked + div {
-  @apply bg-green-500;
-  @apply border-green-500;
+  @apply bg-org;
+  @apply border-org;
 }
 
 .custom-checkbox-2:checked + div svg {
@@ -104,7 +104,7 @@
 }
 
 .custom-switch-2:checked + div > .flex-1 > .custom-switch-btn-2 > span {
-  @apply bg-green-500;
+  @apply bg-org;
   @apply text-black;
 }
 

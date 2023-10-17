@@ -38,7 +38,7 @@ const HeroSection = () => {
                   <div className="w-auto hidden lg:block">
                     <div className="inline-block">
                       <a
-                        className="inline-block px-8 py-4 text-white hover:text-black tracking-tighter hover:bg-green-400 border-2 border-white focus:border-green-400 focus:border-opacity-40 hover:border-green-400 focus:ring-4 focus:ring-green-400 focus:ring-opacity-40 rounded-full transition duration-300"
+                        className="inline-block px-8 py-4 text-white hover:text-black tracking-tighter hover:bg-org border-2 border-white focus:border-org focus:border-opacity-40 hover:border-org focus:ring-4 focus:ring-green-org focus:ring-opacity-40 rounded-full transition duration-300"
                         href="#"
                       >
                         Get in touch
@@ -48,7 +48,7 @@ const HeroSection = () => {
                   <div className="w-auto lg:hidden">
                     <a className="relative z-10 inline-block" href="#">
                       <svg
-                        className="navbar-burger text-green-500"
+                        className="navbar-burger text-org"
                         width={51}
                         height={51}
                         viewBox="0 0 56 56"
@@ -128,7 +128,7 @@ const HeroSection = () => {
                 </div>
                 <div className="flex flex-col justify-end w-full pb-8">
                   <a
-                    className="inline-block px-8 py-4 text-center text-white hover:text-black tracking-tighter hover:bg-green-400 border-2 border-white focus:border-green-400 focus:border-opacity-40 hover:border-green-400 focus:ring-4 focus:ring-green-400 focus:ring-opacity-40 rounded-full transition duration-300"
+                    className="inline-block px-8 py-4 text-center text-white hover:text-black tracking-tighter hover:bg-org border-2 border-white focus:border-org focus:border-opacity-40 hover:border-org focus:ring-4 focus:ring-green-org focus:ring-opacity-40 rounded-full transition duration-300"
                     href="#"
                   >
                     Get in touch
@@ -142,7 +142,7 @@ const HeroSection = () => {
               <div className="flex flex-wrap items-end -m-8">
                 <div className="relative z-10 w-full md:w-1/2 lg:w-7/12 p-8">
                   <div className="md:max-w-xl">
-                    <span className="inline-block mb-2.5 text-sm text-green-400 font-medium tracking-tighter">
+                    <span className="inline-block mb-2.5 text-sm text-org font-medium tracking-tighter">
                       Nightsable Card
                     </span>
                     <h1 className="mb-8 text-7xl lg:text-8xl text-white tracking-tighter">
@@ -154,7 +154,7 @@ const HeroSection = () => {
                       earnings reports and more that strip away the noise.
                     </p>
                     <a
-                      className="inline-block px-8 py-4 tracking-tighter bg-green-400 hover:bg-green-500 text-black focus:ring-4 focus:ring-green-500 focus:ring-opacity-40 rounded-full transition duration-300"
+                      className="inline-block px-8 py-4 tracking-tighter bg-org hover:bg-cyan-300 text-black focus:ring-4 focus:ring-org focus:ring-opacity-40 rounded-full transition duration-300"
                       href="#"
                     >
                       Start now
@@ -206,7 +206,7 @@ const HeroSection = () => {
             <div className="flex flex-wrap -m-8">
               <div className="w-full md:w-1/2 p-8">
                 <div className="relative z-10 md:max-w-md">
-                  <span className="inline-block mb-4 text-sm text-green-400 font-medium tracking-tighter">
+                  <span className="inline-block mb-4 text-sm text-org font-medium tracking-tighter">
                     Nightsable Card
                   </span>
                   <h2 className="mb-6 text-7xl text-white tracking-tighter-xl">
@@ -217,7 +217,7 @@ const HeroSection = () => {
                     AAPL, AMZN, MSFT, and META.
                   </p>
                   <Link
-                    className="inline-block px-8 py-4 tracking-tighter bg-green-400 hover:bg-green-500 text-black focus:ring-4 focus:ring-green-500 focus:ring-opacity-40 rounded-full transition duration-300"
+                    className="inline-block px-8 py-4 tracking-tighter bg-org hover:bg-cyan-300 text-black focus:ring-4 focus:ring-org focus:ring-opacity-40 rounded-full transition duration-300"
                     href="/stats"
                   >
                     View Reports
@@ -239,7 +239,7 @@ const HeroSection = () => {
           <div className="container px-4 mx-auto">
             <div className="py-14 bg-gradient-radial-dark rounded-6xl">
               <div className="md:max-w-2xl mx-auto text-center px-4">
-                <span className="inline-block mb-4 text-sm text-green-400 font-medium tracking-tighter">
+                <span className="inline-block mb-4 text-sm text-org font-medium tracking-tighter">
                   Nightsable Card
                 </span>
                 <h2 className="mb-6 text-5xl text-white tracking-5xl">
@@ -250,7 +250,7 @@ const HeroSection = () => {
                   vital data, spot trends, and make informed decisions faster.
                 </p>
                 <a
-                  className="inline-block px-14 py-4 font-medium tracking-2xl border-2 border-green-400 bg-green-400 hover:bg-green-500 text-black focus:ring-4 focus:ring-green-500 focus:ring-opacity-40 rounded-full transition duration-300"
+                  className="inline-block px-14 py-4 font-medium tracking-2xl border-2 border-org bg-org hover:bg-cyan-300 text-black focus:ring-4 focus:ring-org focus:ring-opacity-40 rounded-full transition duration-300"
                   href="#"
                 >
                   Sign Up for Early Access

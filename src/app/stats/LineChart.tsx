@@ -9,7 +9,7 @@ const MyChart: React.FC = () => {
     toolbar: {
       style: {
         fontSize: "16px",
-        color: "#FF5000",
+        color: "#00FFFF",
       },
     },
     dataLabels: {
@@ -27,11 +27,11 @@ const MyChart: React.FC = () => {
         show: false, // Hide the toolbar, including the reset zoom button
       },
     },
-    colors: ["#FF5000"],
+    colors: ["#00FFFF"],
     tooltip: {
       style: {
         fontSize: "16px",
-        color: "#FF5000",
+        color: "#00FFFF",
       },
     },
   };
@@ -56,7 +56,7 @@ const MyChart: React.FC = () => {
       <style>
         {`
           .apexcharts-menu-item {
-            color: #FF5000; /* Change the color to the one you want */
+            color: #00FFFF; /* Change the color to the one you want */
           }
         `}
       </style>
