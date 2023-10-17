@@ -1,8 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import Head from "next/head";
+import "tailwindcss/tailwind.css";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,8 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="antialiased bg-body text-body font-body">
-        {children}
+      <Head>
         <link
           href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
           rel="stylesheet"
@@ -26,6 +24,10 @@ export default function RootLayout({
           href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@400,300,500&display=swap"
           rel="stylesheet"
         />
+        <script async src="js/main.js"></script>
+      </Head>
+      <body className="antialiased bg-body text-body font-body">
+        {children}
       </body>
     </html>
   );

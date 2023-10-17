@@ -1,21 +1,9 @@
-"use client";
+import Link from "next/link";
 import React from "react";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-
-const meta = {
-  title: "",
-  meta: [],
-  link: [],
-  style: [],
-  script: [],
-};
 
 const HeroSection = () => {
   return (
     <>
-      <HelmetProvider>
-        <Helmet {...meta}></Helmet>
-      </HelmetProvider>
       <>
         <section className="relative overflow-hidden">
           <div className="container px-4 mx-auto">
@@ -228,12 +216,12 @@ const HeroSection = () => {
                     Access our limited earnings reports of market leaders like
                     AAPL, AMZN, MSFT, and META.
                   </p>
-                  <a
+                  <Link
                     className="inline-block px-8 py-4 tracking-tighter bg-green-400 hover:bg-green-500 text-black focus:ring-4 focus:ring-green-500 focus:ring-opacity-40 rounded-full transition duration-300"
-                    href="#"
+                    href="/stats"
                   >
-                    Start now
-                  </a>
+                    View Reports
+                  </Link>
                 </div>
               </div>
               <div className="w-full md:w-1/2 p-8">
@@ -331,16 +319,6 @@ const HeroSection = () => {
               </div>
               <div className="w-auto p-8">
                 <div className="relative border border-gray-900 focus-within:border-white overflow-hidden rounded-3xl">
-                  <select
-                    className="appearance-none pl-6 pr-16 py-4 text-gray-300 w-full placeholder-gray-50 outline-none bg-transparent"
-                    typeof="text"
-                    placeholder="Company"
-                  >
-                    <option>English</option>
-                    <option>Poland</option>
-                    <option>Norway</option>
-                    <option>France</option>
-                  </select>
                   <svg
                     className="absolute right-8 top-1/2 transform -translate-y-1/2"
                     width={16}
@@ -362,8 +340,6 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-          <link rel="stylesheet" href="css/tailwind/tailwind.min.css" />
-          <script src="js/main.js"></script>
         </section>
       </>
     </>
