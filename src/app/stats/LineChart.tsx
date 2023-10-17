@@ -1,64 +1,67 @@
-"use client";
 import React from "react";
-import {
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
-  ResponsiveContainer,
-} from "recharts";
+import ReactApexChart from "react-apexcharts";
 
-interface DataPoint {
-  name: string;
-  value: number;
-}
+const MyChart: React.FC = () => {
+  const chartOptions = {
+    theme: {
+      mode: "dark" as "dark",
+    },
+    toolbar: {
+      style: {
+        fontSize: "16px",
+        color: "#FF5000",
+      },
+    },
+    dataLabels: {
+      enabled: false,
+    },
+    chart: {
+      background: "transparent",
+      zoom: {
+        enabled: false, // Disable zooming
+      },
+      selection: {
+        enabled: false, // Disable selection
+      },
+      toolbar: {
+        show: false, // Hide the toolbar, including the reset zoom button
+      },
+    },
+    colors: ["#FF5000"],
+    tooltip: {
+      style: {
+        fontSize: "16px",
+        color: "#FF5000",
+      },
+    },
+  };
 
-interface LineChartProps {
-  data: DataPoint[];
-}
+  const chartSeries = [
+    {
+      name: "Series 1",
+      data: [
+        30, 40, 35, 150, 490, 60, 170, 91, 125, 0, 150, 490, 60, 170, 91, 125,
+      ],
+    },
+  ];
 
-const CustomizedDot = (props: any) => {
-  const { cx, cy, fill } = props;
   return (
-    <svg x={cx - 5} y={cy - 5} width={10} height={10} fill={fill}>
-      <circle cx={5} cy={5} r={5} />
-    </svg>
+    <div>
+      <ReactApexChart
+        options={chartOptions}
+        series={chartSeries}
+        type="line"
+        height={350}
+      />
+      <style>
+        {`
+          .apexcharts-menu-item {
+            color: #FF5000; /* Change the color to the one you want */
+          }
+        `}
+      </style>
+    </div>
   );
 };
 
-const CustomizedAxisTick = (props: any) => {
-  const { x, y, payload } = props;
-  return (
-    <g transform={`translate(${x},${y})`}>
-      <text x={0} y={0} dy={16} fill="#666" transform="rotate(0)">
-        {payload.value}
-      </text>
-    </g>
-  );
-};
-
-const DarkLineChart: React.FC<LineChartProps> = ({ data }) => {
-  return (
-    <ResponsiveContainer height={400}>
-      <LineChart data={data}>
-        <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="name" tick={<CustomizedAxisTick />} />
-        <YAxis />
-        <Tooltip />
-        <Legend />
-        <Line
-          type="linear"
-          dataKey="value"
-          stroke="#FF5000"
-          activeDot={{ r: 8 }}
-          dot={<CustomizedDot />}
-        />
-      </LineChart>
-    </ResponsiveContainer>
-  );
-};
-
-export default DarkLineChart;
+export default MyChart;
