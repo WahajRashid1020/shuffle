@@ -164,7 +164,7 @@ const HeroSection = () => {
               <p className="text-sm">
                 Sign up for a Robinhood brokerage account to buy or sell Apple
                 stock and options commission-free. Other fees may apply. See
-                Robinhood Financial's fee schedule to learn more.
+                Robinhood Financial&lqsuo;s fee schedule to learn more.
               </p>
               <Separator className="my-4 " />
               <Button className="w-full" variant="basic" size="bs">
