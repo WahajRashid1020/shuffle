@@ -23,7 +23,7 @@ module.exports = {
       },
       colors: {
         basic: "#FF7F50",
-        org: "#00FFFF",
+        org: "#ffffff",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -769,7 +769,7 @@ module.exports = {
       },
       textColor: (theme) => ({
         ...theme("colors"),
-        body: "#34533D",
+        body: "#ffffff",
       }),
       textOpacity: (theme) => theme("opacity"),
       transformOrigin: {

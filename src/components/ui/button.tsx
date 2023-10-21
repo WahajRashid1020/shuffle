@@ -22,7 +22,8 @@ const buttonVariants = cva(
         basicr:
           "hover:bg-org border border-org bg-transparent hover:text-white text-org  ",
         link: "text-primary underline-offset-4 hover:underline",
-        simple: "text-body hover:text-org underline-offset-4 hover:underline",
+        simple:
+          "text-body hover:text-cyan-300 underline-offset-4 hover:underline",
       },
       size: {
         default: "h-9 px-4 py-2",
