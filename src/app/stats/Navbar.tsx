@@ -1,20 +1,20 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Leaf } from "lucide-react";
 import React from "react";
 
 const Navbar: React.FC = () => {
   return (
     <div className="container m-auto">
       <nav className=" py-4 flex justify-between items-center">
-        <Leaf />
+        <img
+          loading="lazy"
+          className="max-h-16 max-w-16 m-0 p-0"
+          src="LOGO.png"
+          alt=""
+        />
 
         <div className="md:block hidden w-1/3    mx-4">
-          <Input
-            className="focus-visible:border-org"
-            type="text"
-            placeholder="Search..."
-          />
+          <Input type="search" placeholder="Search..." />
         </div>
 
         <div className="flex flex-row items-end">

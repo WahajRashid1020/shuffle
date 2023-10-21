@@ -12,7 +12,12 @@ const HeroSection = () => {
                 <div className="flex flex-wrap items-center">
                   <div className="w-auto">
                     <a className="relative z-10 inline-block" href="#">
-                      <img src="nightsable-assets/logos/logo.svg" alt="" />
+                      <img
+                        loading="lazy"
+                        className="max-h-16 max-w-16"
+                        src="LOGO.png"
+                        alt=""
+                      />
                     </a>
                   </div>
                 </div>
@@ -21,16 +26,16 @@ const HeroSection = () => {
                 <div className="flex flex-wrap items-center">
                   <div className="w-auto hidden lg:block">
                     <ul className="flex items-center mr-12">
-                      <li className="mr-12 text-white font-medium hover:text-opacity-90 tracking-tighter">
+                      <li className="mr-12   font-medium hover:text-org hover:underline tracking-tighter">
                         <a href="#">Home</a>
                       </li>
-                      <li className="mr-12 text-white font-medium hover:text-opacity-90 tracking-tighter">
+                      <li className="mr-12   font-medium  hover:text-org hover:underline tracking-tighter">
                         <a href="#">About us</a>
                       </li>
-                      <li className="mr-12 text-white font-medium hover:text-opacity-90 tracking-tighter">
+                      <li className="mr-12   font-medium  hover:text-org hover:underline tracking-tighter">
                         <a href="#">Wallet</a>
                       </li>
-                      <li className="text-white font-medium hover:text-opacity-90 tracking-tighter">
+                      <li className="  font-medium  hover:text-org hover:underline tracking-tighter">
                         <a href="#">Blog</a>
                       </li>
                     </ul>
@@ -38,7 +43,7 @@ const HeroSection = () => {
                   <div className="w-auto hidden lg:block">
                     <div className="inline-block">
                       <a
-                        className="inline-block px-8 py-4 text-white hover:text-black tracking-tighter hover:bg-org border-2 border-white focus:border-org focus:border-opacity-40 hover:border-org focus:ring-4 focus:ring-green-org focus:ring-opacity-40 rounded-full transition duration-300"
+                        className="inline-block px-8 py-4   hover:text-black tracking-tighter hover:bg-org border-2 border-org focus:border-org focus:border-opacity-40 hover:border-org focus:ring-4 focus:ring-green-org focus:ring-opacity-40 rounded-full transition duration-300"
                         href="#"
                       >
                         Get in touch
@@ -83,14 +88,16 @@ const HeroSection = () => {
                   <div className="flex items-center justify-between -m-2">
                     <div className="w-auto p-2">
                       <a className="inline-block" href="#">
-                        <img src="nightsable-assets/logos/logo.svg" alt="" />
+                        <img
+                          loading="lazy"
+                          className="max-h-16 max-w-16"
+                          src="LOGO.png"
+                          alt=""
+                        />
                       </a>
                     </div>
                     <div className="w-auto p-2">
-                      <a
-                        className="navbar-burger inline-block text-white"
-                        href="#"
-                      >
+                      <a className="navbar-burger inline-block  " href="#">
                         <svg
                           width={24}
                           height={24}
@@ -112,23 +119,23 @@ const HeroSection = () => {
                 </div>
                 <div className="flex flex-col justify-center py-16 w-full">
                   <ul>
-                    <li className="mb-8 text-white font-medium hover:text-opacity-90 tracking-tighter">
+                    <li className="mb-8   font-medium hover:text-opacity-90 tracking-tighter">
                       <a href="#">Home</a>
                     </li>
-                    <li className="mb-8 text-white font-medium hover:text-opacity-90 tracking-tighter">
+                    <li className="mb-8   font-medium hover:text-opacity-90 tracking-tighter">
                       <a href="#">About us</a>
                     </li>
-                    <li className="mb-8 text-white font-medium hover:text-opacity-90 tracking-tighter">
+                    <li className="mb-8   font-medium hover:text-opacity-90 tracking-tighter">
                       <a href="#">Wallet</a>
                     </li>
-                    <li className="text-white font-medium hover:text-opacity-90 tracking-tighter">
+                    <li className="  font-medium hover:text-opacity-90 tracking-tighter">
                       <a href="#">Blog</a>
                     </li>
                   </ul>
                 </div>
                 <div className="flex flex-col justify-end w-full pb-8">
                   <a
-                    className="inline-block px-8 py-4 text-center text-white hover:text-black tracking-tighter hover:bg-org border-2 border-white focus:border-org focus:border-opacity-40 hover:border-org focus:ring-4 focus:ring-green-org focus:ring-opacity-40 rounded-full transition duration-300"
+                    className="inline-block px-8 py-4 text-center   hover:text-black tracking-tighter hover:bg-org border-2 border-white focus:border-org focus:border-opacity-40 hover:border-org focus:ring-4 focus:ring-green-org focus:ring-opacity-40 rounded-full transition duration-300"
                     href="#"
                   >
                     Get in touch
@@ -145,10 +152,10 @@ const HeroSection = () => {
                     <span className="inline-block mb-2.5 text-sm text-org font-medium tracking-tighter">
                       Nightsable Card
                     </span>
-                    <h1 className="mb-8 text-7xl lg:text-8xl text-white tracking-tighter">
+                    <h1 className="mb-8 text-7xl lg:text-8xl font-heading  tracking-tighter">
                       A Distilled Approach to Earnings Insights.
                     </h1>
-                    <p className="mb-10 text-lg text-white md:max-w-xs">
+                    <p className="mb-10 text-lg   md:max-w-xs">
                       Earnings reports can be dense, but your decisions
                       shouldn’t be. Get condensed insightful summaries of
                       earnings reports and more that strip away the noise.
@@ -163,24 +170,28 @@ const HeroSection = () => {
                 </div>
                 <div className="w-full md:w-1/2 lg:w-5/12 p-8">
                   <div className="relative max-w-max mx-auto md:mr-0">
-                    <img src="/s1.png" alt="" />
+                    <img loading="lazy" src="/s1.png" alt="" />
                     <img
+                      loading="lazy"
                       className="absolute -top-16 -left-16"
                       src="nightsable-assets/images/headers/star.svg"
                       alt=""
                     />
                     <img
+                      loading="lazy"
                       className="absolute top-56 -left-44"
                       src="nightsable-assets/images/headers/star2.svg"
                       alt=""
                     />
                     <div className="absolute bottom-10 -right-40">
                       <img
+                        loading="lazy"
                         className="relative -bottom-4"
                         src="nightsable-assets/images/headers/star5.svg"
                         alt=""
                       />
                       <img
+                        loading="lazy"
                         src="nightsable-assets/images/headers/star3.svg"
                         alt=""
                       />
@@ -191,11 +202,13 @@ const HeroSection = () => {
             </div>
           </div>
           <img
-            className="absolute top-0 left-0"
+            loading="lazy"
+            className="absolute  top-0 left-0"
             src="nightsable-assets/images/headers/layer-blur.svg"
             alt=""
           />
           <img
+            loading="lazy"
             className="absolute top-24 right-0"
             src="nightsable-assets/images/headers/lines.svg"
             alt=""
@@ -209,10 +222,10 @@ const HeroSection = () => {
                   <span className="inline-block mb-4 text-sm text-org font-medium tracking-tighter">
                     Nightsable Card
                   </span>
-                  <h2 className="mb-6 text-7xl text-white tracking-tighter-xl">
+                  <h2 className="mb-6 text-7xl font-heading   tracking-tighter-xl">
                     Sample Reports
                   </h2>
-                  <p className="mb-10 text-white text-opacity-60 md:max-w-xs">
+                  <p className="mb-10   text-opacity-60 md:max-w-xs">
                     Access our limited earnings reports of market leaders like
                     AAPL, AMZN, MSFT, and META.
                   </p>
@@ -225,11 +238,17 @@ const HeroSection = () => {
                 </div>
               </div>
               <div className="w-full md:w-1/2 p-8">
-                <img className="md:mr-0 rounded-4xl" src="d1.png" alt="" />
+                <img
+                  loading="lazy"
+                  className="md:mr-0 rounded-4xl"
+                  src="ms2.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>
           <img
+            loading="lazy"
             className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             src="nightsable-assets/images/features/bg-blur.png"
             alt=""
@@ -242,7 +261,7 @@ const HeroSection = () => {
                 <span className="inline-block mb-4 text-sm text-org font-medium tracking-tighter">
                   Nightsable Card
                 </span>
-                <h2 className="mb-6 text-5xl text-white tracking-5xl">
+                <h2 className="mb-6 text-5xl font-heading  tracking-5xl">
                   Join the Wait List
                 </h2>
                 <p className="mb-12 text-gray-300 max-w-lg mx-auto">
@@ -263,13 +282,18 @@ const HeroSection = () => {
           <div className="container px-4 mx-auto">
             <div className="flex flex-wrap items-center justify-between -m-8">
               <div className="w-auto p-8">
-                <img src="nightsable-assets/logos/logo.svg" alt="" />
+                <img
+                  loading="lazy"
+                  className="max-h-16 max-w-16"
+                  src="LOGO.png"
+                  alt=""
+                />
               </div>
               <div className="w-auto p-8">
                 <ul className="flex flex-wrap -m-5">
                   <li className="p-5">
                     <a
-                      className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300"
+                      className="inline-block text-lg font-medium text-gray-300 hover:  transition duration-300"
                       href="#"
                     >
                       Contact
@@ -277,7 +301,7 @@ const HeroSection = () => {
                   </li>
                   <li className="p-5">
                     <a
-                      className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300"
+                      className="inline-block text-lg font-medium text-gray-300 hover:  transition duration-300"
                       href="#"
                     >
                       Blog
@@ -285,7 +309,7 @@ const HeroSection = () => {
                   </li>
                   <li className="p-5">
                     <a
-                      className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300"
+                      className="inline-block text-lg font-medium text-gray-300 hover:  transition duration-300"
                       href="#"
                     >
                       Our Story
@@ -293,7 +317,7 @@ const HeroSection = () => {
                   </li>
                   <li className="p-5">
                     <a
-                      className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300"
+                      className="inline-block text-lg font-medium text-gray-300 hover:  transition duration-300"
                       href="#"
                     >
                       Careers
@@ -301,7 +325,7 @@ const HeroSection = () => {
                   </li>
                   <li className="p-5">
                     <a
-                      className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300"
+                      className="inline-block text-lg font-medium text-gray-300 hover:  transition duration-300"
                       href="#"
                     >
                       Privacy
@@ -309,7 +333,7 @@ const HeroSection = () => {
                   </li>
                   <li className="p-5">
                     <a
-                      className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300"
+                      className="inline-block text-lg font-medium text-gray-300 hover:  transition duration-300"
                       href="#"
                     >
                       Terms

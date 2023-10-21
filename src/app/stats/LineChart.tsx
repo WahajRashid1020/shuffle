@@ -18,19 +18,20 @@ const MyChart: React.FC = () => {
     chart: {
       background: "transparent",
       zoom: {
-        enabled: false, // Disable zooming
+        enabled: false,
       },
       selection: {
-        enabled: false, // Disable selection
+        enabled: false,
       },
       toolbar: {
-        show: false, // Hide the toolbar, including the reset zoom button
+        show: false,
       },
     },
     colors: ["#00FFFF"],
     tooltip: {
       style: {
         fontSize: "16px",
+
         color: "#00FFFF",
       },
     },
@@ -56,7 +57,7 @@ const MyChart: React.FC = () => {
       <style>
         {`
           .apexcharts-menu-item {
-            color: #00FFFF; /* Change the color to the one you want */
+            color: #00FFFF;  
           }
         `}
       </style>

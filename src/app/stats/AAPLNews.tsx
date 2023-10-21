@@ -6,7 +6,7 @@ const AAPLNews = () => {
     <div className="my-4">
       <h1 className="text-2xl sm:text-3xl">AAPL News</h1>
       <Break />
-      <div className="hover:bg-[#1e2124] flex flex-row justify-between pb-4 sm:pb-0  sm:p-4 rounded-md cursor-pointer my-2">
+      <div className="hover:bg-gray-950 items-center flex flex-row justify-between     p-4 rounded-md cursor-pointer my-2">
         <div className="flex flex-col justify-around sm:w-2/3 space-y-3 items-start">
           <p className="sm:text-sm text-xs">Benzinga 5h</p>
           <p className="sm:text-base text-sm">
@@ -19,10 +19,10 @@ const AAPLNews = () => {
           </p>
         </div>
         <div className="sm:block hidden">
-          <img src="/apple.png" alt="" />
+          <img loading="lazy" src="/apple.png" alt="" />
         </div>
       </div>{" "}
-      <div className="hover:bg-[#1e2124] flex flex-row justify-between pb-4 sm:pb-0 sm:p-4 rounded-md cursor-pointer my-2">
+      <div className="hover:bg-gray-950 flex flex-row items-center justify-between    p-4 rounded-md cursor-pointer my-2">
         <div className="flex flex-col justify-around sm:w-2/3 space-y-3 items-start">
           <p className="sm:text-sm text-xs">Benzinga 5h</p>
           <p className="sm:text-base text-sm">
@@ -35,10 +35,10 @@ const AAPLNews = () => {
           </p>
         </div>
         <div className="sm:block hidden">
-          <img src="/apple.png" alt="" />
+          <img loading="lazy" src="/apple.png" alt="" />
         </div>
       </div>{" "}
-      <div className="hover:bg-[#1e2124] flex flex-row justify-between pb-4 sm:pb-0 sm:p-4 rounded-md cursor-pointer my-2">
+      <div className="hover:bg-gray-950 items-center flex flex-row justify-between p-4 rounded-md cursor-pointer my-2">
         <div className="flex flex-col justify-around sm:w-2/3  space-y-3 items-start">
           <p className="sm:text-sm text-xs">Benzinga 5h</p>
           <p className="sm:text-base text-sm">
@@ -51,7 +51,7 @@ const AAPLNews = () => {
           </p>
         </div>
         <div className="sm:block hidden">
-          <img src="/apple.png" alt="" />
+          <img loading="lazy" src="/apple.png" alt="" />
         </div>
       </div>
     </div>

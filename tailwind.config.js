@@ -348,9 +348,8 @@ module.exports = {
         DEFAULT: "1",
       },
       fontFamily: {
-        body: '"Clash Grotesk", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
-        heading:
-          '"Playfair Display", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
+        body: "IBM Plex sans",
+        heading: "IBM Plex Sans Condensed",
         sans: 'ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
         serif: 'ui-serif, Georgia, Cambria, "Times New Roman", Times, serif',
         mono: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
@@ -770,7 +769,7 @@ module.exports = {
       },
       textColor: (theme) => ({
         ...theme("colors"),
-        body: "#fff",
+        body: "#34533D",
       }),
       textOpacity: (theme) => theme("opacity"),
       transformOrigin: {

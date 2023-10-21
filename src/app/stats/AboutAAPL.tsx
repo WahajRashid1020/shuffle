@@ -27,7 +27,7 @@ const AboutAAPL: React.FC = () => {
           {words.length > wordLimit && (
             <button
               onClick={toggleShowMore}
-              className="text-org sm:text-sm text-xs p-0 px-1 hover:underline"
+              className="text-org sm:text-sm text-xs px-2 align-middle hover:underline"
             >
               {showMore ? "Show Less" : "Show More"}
             </button>
