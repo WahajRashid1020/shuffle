@@ -10,7 +10,7 @@ const AAPLNews = () => {
         <div className="flex flex-col justify-around sm:w-2/3 space-y-3 items-start">
           <p className="sm:text-sm text-xs">Benzinga 5h</p>
           <p className="sm:text-base text-sm">
-            Next In Line: iPhone 16 Pro&apos;s Potential Features Revealed
+            Next In Line: iPhone 16 Pro&lsquo;s Potential Features Revealed
           </p>
           <p className="sm:text-sm text-xs text-gray-600">
             While the tech world is still taking in the features of the recently
@@ -26,7 +26,7 @@ const AAPLNews = () => {
         <div className="flex flex-col justify-around sm:w-2/3 space-y-3 items-start">
           <p className="sm:text-sm text-xs">Benzinga 5h</p>
           <p className="sm:text-base text-sm">
-            Next In Line: iPhone 16 Pro&apos;s Potential Features Revealed
+            Next In Line: iPhone 16 Pro&lsquo;s Potential Features Revealed
           </p>
           <p className="sm:text-sm text-xs text-gray-600">
             While the tech world is still taking in the features of the recently
@@ -42,7 +42,7 @@ const AAPLNews = () => {
         <div className="flex flex-col justify-around sm:w-2/3  space-y-3 items-start">
           <p className="sm:text-sm text-xs">Benzinga 5h</p>
           <p className="sm:text-base text-sm">
-            Next In Line: iPhone 16 Pro&apos;s Potential Features Revealed
+            Next In Line: iPhone 16 Pro&lsquo;s Potential Features Revealed
           </p>
           <p className="sm:text-sm text-xs text-gray-600">
             While the tech world is still taking in the features of the recently
