@@ -20,14 +20,14 @@ const AboutAAPL: React.FC = () => {
   return (
     <>
       <div className="py-5">
-        <h1 className="text-2xl sm:text-3xl">About AAPL</h1>
+        <h1 className="text-2xl font-bold sm:text-3xl pt-2">About AAPL</h1>
         <Break />
         <p className="sm:text-sm text-xs text-justify">
           {truncatedText}
           {words.length > wordLimit && (
             <button
               onClick={toggleShowMore}
-              className="text-org sm:text-sm text-xs px-2 align-middle hover:underline"
+              className="text-org sm:text-sm text-xs px-2 align-middle hover:text-cyan-300"
             >
               {showMore ? "Show Less" : "Show More"}
             </button>
@@ -60,7 +60,9 @@ const AboutAAPL: React.FC = () => {
             <p className="sm:text-sm text-xs">1976</p>
           </div>
         </div>
-        <h1 className="text-3xl">AAPL Key Statistics</h1>
+        <h1 className="text-2xl font-bold sm:text-3xl pt-4">
+          AAPL Key Statistics
+        </h1>
         <Break />
         <div className="flex flex-col sm:flex-row justify-between sm:items-start my-4">
           <div className="flex flex-row sm:flex-col justify-between items-center sm:items-start space-y-2">

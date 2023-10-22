@@ -4,7 +4,7 @@ import React from "react";
 const AAPLNews = () => {
   return (
     <div className="my-4">
-      <h1 className="text-2xl sm:text-3xl">AAPL News</h1>
+      <h1 className="text-2xl font-bold sm:text-3xl">AAPL News</h1>
       <Break />
       <div className="hover:bg-gray-950 items-center flex flex-row justify-between     p-4 rounded-md cursor-pointer my-2">
         <div className="flex flex-col justify-around sm:w-2/3 space-y-3 items-start">

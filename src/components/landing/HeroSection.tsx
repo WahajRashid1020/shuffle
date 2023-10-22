@@ -26,16 +26,16 @@ const HeroSection = () => {
                 <div className="flex flex-wrap items-center">
                   <div className="w-auto hidden lg:block">
                     <ul className="flex items-center mr-12">
-                      <li className="mr-12   font-medium hover:text-org hover:underline tracking-tighter">
+                      <li className="mr-12   font-medium hover:text-cyan-300   hover:underline tracking-tighter">
                         <a href="#">Home</a>
                       </li>
-                      <li className="mr-12   font-medium  hover:text-org hover:underline tracking-tighter">
+                      <li className="mr-12   font-medium  hover:text-cyan-300   hover:underline tracking-tighter">
                         <a href="#">About us</a>
                       </li>
-                      <li className="mr-12   font-medium  hover:text-org hover:underline tracking-tighter">
+                      <li className="mr-12   font-medium  hover:text-cyan-300   hover:underline tracking-tighter">
                         <a href="#">Wallet</a>
                       </li>
-                      <li className="  font-medium  hover:text-org hover:underline tracking-tighter">
+                      <li className="  font-medium  hover:text-cyan-300   hover:underline tracking-tighter">
                         <a href="#">Blog</a>
                       </li>
                     </ul>
@@ -43,7 +43,7 @@ const HeroSection = () => {
                   <div className="w-auto hidden lg:block">
                     <div className="inline-block">
                       <a
-                        className="inline-block px-8 py-4   hover:text-black tracking-tighter hover:bg-org border-2 border-org focus:border-org focus:border-opacity-40 hover:border-org focus:ring-4 focus:ring-green-org focus:ring-opacity-40 rounded-full transition duration-300"
+                        className="inline-block px-8 py-4   hover:text-black tracking-tighter hover:bg-cyan-300 border-2 border-org focus:border-cyan-300 focus:border-opacity-40 hover:border-cyan-300 focus:ring-4 focus:ring-green-org focus:ring-opacity-40 rounded-full transition duration-300"
                         href="#"
                       >
                         Get in touch
@@ -53,7 +53,7 @@ const HeroSection = () => {
                   <div className="w-auto lg:hidden">
                     <a className="relative z-10 inline-block" href="#">
                       <svg
-                        className="navbar-burger text-org"
+                        className="navbar-burger  "
                         width={51}
                         height={51}
                         viewBox="0 0 56 56"
@@ -119,23 +119,23 @@ const HeroSection = () => {
                 </div>
                 <div className="flex flex-col justify-center py-16 w-full">
                   <ul>
-                    <li className="mb-8   font-medium hover:text-opacity-90 tracking-tighter">
+                    <li className="mb-8   font-medium hover:text-cyan-300 tracking-tighter">
                       <a href="#">Home</a>
                     </li>
-                    <li className="mb-8   font-medium hover:text-opacity-90 tracking-tighter">
+                    <li className="mb-8   font-medium hover:text-cyan-300 tracking-tighter">
                       <a href="#">About us</a>
                     </li>
-                    <li className="mb-8   font-medium hover:text-opacity-90 tracking-tighter">
+                    <li className="mb-8   font-medium hover:text-cyan-300 tracking-tighter">
                       <a href="#">Wallet</a>
                     </li>
-                    <li className="  font-medium hover:text-opacity-90 tracking-tighter">
+                    <li className="  font-medium hover:text-cyan-300 tracking-tighter">
                       <a href="#">Blog</a>
                     </li>
                   </ul>
                 </div>
                 <div className="flex flex-col justify-end w-full pb-8">
                   <a
-                    className="inline-block px-8 py-4 text-center   hover:text-black tracking-tighter hover:bg-org border-2 border-white focus:border-org focus:border-opacity-40 hover:border-org focus:ring-4 focus:ring-green-org focus:ring-opacity-40 rounded-full transition duration-300"
+                    className="inline-block px-8 py-4 text-center   hover:text-black tracking-tighter  border-2 border-white focus:border-org focus:border-opacity-40 hover:border-cyan-300 focus:ring-4 focus:ring-green-org focus:ring-opacity-40 rounded-full transition duration-300"
                     href="#"
                   >
                     Get in touch
@@ -149,9 +149,6 @@ const HeroSection = () => {
               <div className="flex flex-wrap items-end -m-8">
                 <div className="relative z-10 w-full md:w-1/2 lg:w-7/12 p-8">
                   <div className="md:max-w-xl">
-                    <span className="inline-block mb-2.5 text-sm text-org font-medium tracking-tighter">
-                      Nightsable Card
-                    </span>
                     <h1 className="mb-8 text-7xl lg:text-8xl font-heading  tracking-tighter">
                       A Distilled Approach to Earnings Insights.
                     </h1>
@@ -161,7 +158,7 @@ const HeroSection = () => {
                       earnings reports and more that strip away the noise.
                     </p>
                     <a
-                      className="inline-block px-8 py-4 tracking-tighter bg-org hover:bg-cyan-300 text-black focus:ring-4 focus:ring-org focus:ring-opacity-40 rounded-full transition duration-300"
+                      className="inline-block px-8 py-4 tracking-tighter hover:bg-org bg-cyan-300 text-black focus:ring-4 focus:ring-org focus:ring-opacity-40 rounded-full transition duration-300"
                       href="#"
                     >
                       Start now
@@ -219,9 +216,6 @@ const HeroSection = () => {
             <div className="flex flex-wrap -m-8">
               <div className="w-full md:w-1/2 p-8">
                 <div className="relative z-10 md:max-w-md">
-                  <span className="inline-block mb-4 text-sm text-org font-medium tracking-tighter">
-                    Nightsable Card
-                  </span>
                   <h2 className="mb-6 text-7xl font-heading   tracking-tighter-xl">
                     Sample Reports
                   </h2>
@@ -230,7 +224,7 @@ const HeroSection = () => {
                     AAPL, AMZN, MSFT, and META.
                   </p>
                   <Link
-                    className="inline-block px-8 py-4 tracking-tighter bg-org hover:bg-cyan-300 text-black focus:ring-4 focus:ring-org focus:ring-opacity-40 rounded-full transition duration-300"
+                    className="inline-block px-8 py-4 tracking-tighter hover:bg-org bg-cyan-300 text-black focus:ring-4 focus:ring-org focus:ring-opacity-40 rounded-full transition duration-300"
                     href="/stats"
                   >
                     View Reports
@@ -258,9 +252,6 @@ const HeroSection = () => {
           <div className="container px-4 mx-auto">
             <div className="py-14 bg-gradient-radial-dark rounded-6xl">
               <div className="md:max-w-2xl mx-auto text-center px-4">
-                <span className="inline-block mb-4 text-sm text-org font-medium tracking-tighter">
-                  Nightsable Card
-                </span>
                 <h2 className="mb-6 text-5xl font-heading  tracking-5xl">
                   Join the Wait List
                 </h2>
@@ -269,7 +260,7 @@ const HeroSection = () => {
                   vital data, spot trends, and make informed decisions faster.
                 </p>
                 <a
-                  className="inline-block px-14 py-4 font-medium tracking-2xl border-2 border-org bg-org hover:bg-cyan-300 text-black focus:ring-4 focus:ring-org focus:ring-opacity-40 rounded-full transition duration-300"
+                  className="inline-block px-14 py-4 font-medium tracking-2xl   hover:bg-org bg-cyan-300 text-black focus:ring-4 focus:ring-org focus:ring-opacity-40 rounded-full transition duration-300"
                   href="#"
                 >
                   Sign Up for Early Access
@@ -293,7 +284,7 @@ const HeroSection = () => {
                 <ul className="flex flex-wrap -m-5">
                   <li className="p-5">
                     <a
-                      className="inline-block text-lg font-medium text-gray-300 hover:  transition duration-300"
+                      className="inline-block text-lg font-medium text-gray-300 hover:text-cyan-300  transition duration-300"
                       href="#"
                     >
                       Contact
@@ -301,7 +292,7 @@ const HeroSection = () => {
                   </li>
                   <li className="p-5">
                     <a
-                      className="inline-block text-lg font-medium text-gray-300 hover:  transition duration-300"
+                      className="inline-block text-lg font-medium text-gray-300 hover:text-cyan-300  transition duration-300"
                       href="#"
                     >
                       Blog
@@ -309,7 +300,7 @@ const HeroSection = () => {
                   </li>
                   <li className="p-5">
                     <a
-                      className="inline-block text-lg font-medium text-gray-300 hover:  transition duration-300"
+                      className="inline-block text-lg font-medium text-gray-300 hover:text-cyan-300  transition duration-300"
                       href="#"
                     >
                       Our Story
@@ -317,7 +308,7 @@ const HeroSection = () => {
                   </li>
                   <li className="p-5">
                     <a
-                      className="inline-block text-lg font-medium text-gray-300 hover:  transition duration-300"
+                      className="inline-block text-lg font-medium text-gray-300 hover:text-cyan-300  transition duration-300"
                       href="#"
                     >
                       Careers
@@ -325,7 +316,7 @@ const HeroSection = () => {
                   </li>
                   <li className="p-5">
                     <a
-                      className="inline-block text-lg font-medium text-gray-300 hover:  transition duration-300"
+                      className="inline-block text-lg font-medium text-gray-300 hover:text-cyan-300  transition duration-300"
                       href="#"
                     >
                       Privacy
@@ -333,7 +324,7 @@ const HeroSection = () => {
                   </li>
                   <li className="p-5">
                     <a
-                      className="inline-block text-lg font-medium text-gray-300 hover:  transition duration-300"
+                      className="inline-block text-lg font-medium text-gray-300 hover:text-cyan-300  transition duration-300"
                       href="#"
                     >
                       Terms
