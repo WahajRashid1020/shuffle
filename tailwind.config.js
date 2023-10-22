@@ -168,7 +168,7 @@ module.exports = {
       backdropSepia: (theme) => theme("sepia"),
       backgroundColor: (theme) => ({
         ...theme("colors"),
-        body: "#0E0F11",
+        body: "#FAF0CA",
       }),
       backgroundImage: {
         none: "none",
@@ -348,8 +348,9 @@ module.exports = {
         DEFAULT: "1",
       },
       fontFamily: {
-        body: "IBM Plex sans",
-        heading: "IBM Plex Sans Condensed",
+        body: '"Clash Grotesk", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "IBM Plex sans',
+        heading:
+          '"Playfair Display", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "IBM Plex Sans Condensed"',
         sans: 'ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
         serif: 'ui-serif, Georgia, Cambria, "Times New Roman", Times, serif',
         mono: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
@@ -769,7 +770,7 @@ module.exports = {
       },
       textColor: (theme) => ({
         ...theme("colors"),
-        body: "#ffffff",
+        body: "#34533D",
       }),
       textOpacity: (theme) => theme("opacity"),
       transformOrigin: {

@@ -43,7 +43,7 @@ const HeroSection = () => {
                   <div className="w-auto hidden lg:block">
                     <div className="inline-block">
                       <a
-                        className="inline-block px-8 py-4   hover:text-black tracking-tighter hover:bg-cyan-300 border-2 border-org focus:border-cyan-300 focus:border-opacity-40 hover:border-cyan-300 focus:ring-4 focus:ring-green-org focus:ring-opacity-40 rounded-full transition duration-300"
+                        className="inline-block px-8 py-4   hover:text-black tracking-tighter hover:bg-cyan-300 border-2 border-[#34533D] focus:border-cyan-300 focus:border-opacity-40 hover:border-cyan-300 focus:ring-4 focus:ring-green-org focus:ring-opacity-40 rounded-full transition duration-300"
                         href="#"
                       >
                         Get in touch
@@ -60,12 +60,7 @@ const HeroSection = () => {
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                       >
-                        <rect
-                          width={56}
-                          height={56}
-                          rx={28}
-                          fill="currentColor"
-                        />
+                        <rect width={56} height={56} rx={28} fill="cyan" />
                         <path
                           d="M37 32H19M37 24H19"
                           stroke="black"
@@ -135,7 +130,7 @@ const HeroSection = () => {
                 </div>
                 <div className="flex flex-col justify-end w-full pb-8">
                   <a
-                    className="inline-block px-8 py-4 text-center   hover:text-black tracking-tighter  border-2 border-white focus:border-org focus:border-opacity-40 hover:border-cyan-300 focus:ring-4 focus:ring-green-org focus:ring-opacity-40 rounded-full transition duration-300"
+                    className="inline-block px-8 py-4 text-center   hover:text-black tracking-tighter  border-2 border-[#34533D] focus:border-org focus:border-opacity-40 hover:border-cyan-300 focus:ring-4 focus:ring-green-org focus:ring-opacity-40 rounded-full transition duration-300"
                     href="#"
                   >
                     Get in touch
@@ -158,7 +153,7 @@ const HeroSection = () => {
                       earnings reports and more that strip away the noise.
                     </p>
                     <a
-                      className="inline-block px-8 py-4 tracking-tighter hover:bg-org bg-cyan-300 text-black focus:ring-4 focus:ring-org focus:ring-opacity-40 rounded-full transition duration-300"
+                      className="inline-block px-8 py-4 tracking-tighter hover:bg-transparent hover:border-[#34533D]  border bg-cyan-300 text-black focus:ring-4 focus:ring-org focus:ring-opacity-40 rounded-full transition duration-300"
                       href="#"
                     >
                       Start now
@@ -167,7 +162,7 @@ const HeroSection = () => {
                 </div>
                 <div className="w-full md:w-1/2 lg:w-5/12 p-8">
                   <div className="relative max-w-max mx-auto md:mr-0">
-                    <img loading="lazy" src="/s1.png" alt="" />
+                    <img loading="lazy" src="/ms1.png" alt="" />
                     <img
                       loading="lazy"
                       className="absolute -top-16 -left-16"
@@ -200,7 +195,7 @@ const HeroSection = () => {
           </div>
           <img
             loading="lazy"
-            className="absolute  top-0 left-0"
+            className="absolute hidden top-0 left-0"
             src="nightsable-assets/images/headers/layer-blur.svg"
             alt=""
           />
@@ -224,7 +219,7 @@ const HeroSection = () => {
                     AAPL, AMZN, MSFT, and META.
                   </p>
                   <Link
-                    className="inline-block px-8 py-4 tracking-tighter hover:bg-org bg-cyan-300 text-black focus:ring-4 focus:ring-org focus:ring-opacity-40 rounded-full transition duration-300"
+                    className="inline-block px-8 py-4 tracking-tighter hover:bg-transparent hover:border-[#34533D]  border bg-cyan-300 text-black focus:ring-4 focus:ring-org focus:ring-opacity-40 rounded-full transition duration-300"
                     href="/stats"
                   >
                     View Reports
@@ -243,7 +238,7 @@ const HeroSection = () => {
           </div>
           <img
             loading="lazy"
-            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+            className="absolute hidden top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             src="nightsable-assets/images/features/bg-blur.png"
             alt=""
           />
@@ -255,12 +250,12 @@ const HeroSection = () => {
                 <h2 className="mb-6 text-5xl font-heading  tracking-5xl">
                   Join the Wait List
                 </h2>
-                <p className="mb-12 text-gray-300 max-w-lg mx-auto">
+                <p className="mb-12  max-w-lg mx-auto">
                   Be among the first to gain access when we launch. Uncover
                   vital data, spot trends, and make informed decisions faster.
                 </p>
                 <a
-                  className="inline-block px-14 py-4 font-medium tracking-2xl   hover:bg-org bg-cyan-300 text-black focus:ring-4 focus:ring-org focus:ring-opacity-40 rounded-full transition duration-300"
+                  className="inline-block px-14 py-4 font-medium tracking-2xl   hover:bg-transparent hover:border-[#34533D]  border bg-cyan-300 text-black focus:ring-4 focus:ring-org focus:ring-opacity-40 rounded-full transition duration-300"
                   href="#"
                 >
                   Sign Up for Early Access

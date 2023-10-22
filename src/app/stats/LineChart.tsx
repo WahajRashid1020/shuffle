@@ -3,9 +3,9 @@ import ReactApexChart from "react-apexcharts";
 
 const MyChart: React.FC = () => {
   const chartOptions = {
-    theme: {
-      mode: "dark" as "dark",
-    },
+    // theme: {
+    //   mode: "dark" as "dark",
+    // },
     toolbar: {
       style: {
         fontSize: "16px",
