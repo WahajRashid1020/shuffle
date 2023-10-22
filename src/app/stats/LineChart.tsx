@@ -59,6 +59,7 @@ const MyChart: React.FC = () => {
         series={chartSeries}
         type="line"
         height={350}
+        width="100%"
       />
       <style>
         {`
