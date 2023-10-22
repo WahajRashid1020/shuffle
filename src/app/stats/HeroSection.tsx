@@ -1,9 +1,5 @@
-"use client";
 import { Button } from "@/components/ui/button";
-import { Separator } from "@radix-ui/react-separator";
-import React from "react";
 
-import Basiccard from "@/components/ui/basiccard";
 import AAPLNews from "./AAPLNews";
 import AboutAAPL from "./AboutAAPL";
 import DarkLineChart from "./LineChart";
